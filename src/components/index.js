@@ -1,4 +1,4 @@
-export { default as Sidebar } from "./sidebar/SideBar.jsx";
+export { default as SideBar } from "./sidebar/sidebar.jsx";
 
 export { default as AreaCards} from "./dashboard/areaCards/AreaCards.jsx";
 

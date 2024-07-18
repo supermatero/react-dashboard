@@ -1,9 +1,12 @@
-import React from 'react'
+//import React from 'react'
+import  AreaBarChart from './AreaBarChart';
+import AreaProgressChart from './AreaProgressChart';
 
 export default function AreaCharts() {
   return (
-    <div>
-      area charts
-    </div>
+    <section className="content-area-charts">
+      <AreaBarChart/>
+      <AreaProgressChart />
+    </section>
   )
 }

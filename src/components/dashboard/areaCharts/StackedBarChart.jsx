@@ -1,9 +1,9 @@
 //import React from 'react'
 
-export default function PageNotFound() {
+export default function StackedBarChart() {
   return (
     <div>
-      Page NOT FOUND
+      stackedBarChart
     </div>
   )
 }

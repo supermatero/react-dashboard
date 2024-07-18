@@ -10,7 +10,7 @@ import { Dashboard, PageNotFound } from "./pages";
 
 function App() {
   const { theme, toggleTheme } = useContext(ThemeContext);
-  console.log(theme);
+  //console.log(theme);
   //adding dark mode
   useEffect(() =>{
     if(theme === DARK_THEME) {

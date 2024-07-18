@@ -1,9 +1,9 @@
 //import React from 'react'
 
-export default function PageNotFound() {
+export default function PieBarChart() {
   return (
     <div>
-      Page NOT FOUND
+      PieBarChart
     </div>
   )
 }

@@ -5,7 +5,7 @@ import { DARK_THEME, LIGHT_THEME } from "../constants/themeConstants";
 export const ThemeContext = createContext({});
 
 export const ThemeProvider = ({children}) => {
-    const [theme, setTheme] = useState(LIGHT_THEME);
+    const [theme, setTheme] = useState(window.localStorage.getItem('theme'));
     window.localStorage.setItem("themeMode", theme);
 
     const toggleTheme = () => {

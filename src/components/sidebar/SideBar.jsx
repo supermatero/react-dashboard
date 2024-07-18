@@ -29,13 +29,13 @@ export default function SideBar() {
 
 
   return (
-    <nav className={`sidebar ${isSidebarOpen} ? "sidebar-show" : ""`} ref={navbarRef}>
+    <nav className={`sidebar ${isSidebarOpen ? "sidebar-show" : ""}`} ref={navbarRef}>
       <div className="sidebar-top">
         <div className="sidebar-brand">
           <img width="80px" src={theme === LIGHT_THEME ? LogoBlue : LogoWhite }  />
           <span className="sidebar-brand-text">Face</span>
         </div>
-        <button className="sidebar-close-btn">
+        <button className="sidebar-close-btn" onClick={closeSidebar}>
           <MdOutlineClose size={24}/>
         </button>
       </div>
